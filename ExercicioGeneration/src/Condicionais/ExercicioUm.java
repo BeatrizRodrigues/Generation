@@ -2,6 +2,8 @@ package Condicionais;
 
 import java.util.Scanner;
 
+/*Faça um programa que receba três inteiros e diga qual deles é o maior.*/
+
 public class ExercicioUm {
 
 	public static void main(String[] args) {

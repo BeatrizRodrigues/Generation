@@ -2,6 +2,8 @@ package Condicionais;
 
 import java.util.Scanner;
 
+/*Faça um programa que entre com três números e coloque em ordem crescente.*/
+
 public class ExercicioDois {
 	public static void main(String[] args) {
 		float n1, n2, n3;
