@@ -23,17 +23,17 @@ public class ExercicioQuatro {
 			System.out.println(n1+" - "+"Raiz quadrada: "+quadrada1);
 			System.out.println(n2+" - "+"Raiz quadrada: "+quadrada2);
 		}else if(n1%2!=0 && n2%2!=0) {
-			potencia1 = (float) Math.pow(2, n1);
-			potencia2 = (float) Math.pow(2, n2);
+			potencia1 = (float) Math.pow(n1, 2);
+			potencia2 = (float) Math.pow(n2, 2);
 			System.out.println(n1+" - "+"Potencia: "+potencia1);
 			System.out.println(n2+" - "+"Potencia: "+potencia2);
 		}else if(n1%2==0 && n2%2!=0) {
 			quadrada1 = (float) Math.sqrt(n1);
-			potencia2 = (float) Math.pow(2, n2);
+			potencia2 = (float) Math.pow(n2, 2);
 			System.out.println(n1+" - "+"Raiz quadrada: "+quadrada1);
 			System.out.println(n2+" - "+"Potencia: "+potencia2);
 		}else {
-			potencia1 = (float) Math.pow(2, n1);
+			potencia1 = (float) Math.pow(n1, 2);
 			quadrada2 = (float) Math.sqrt(n2);
 			System.out.println(n1+" - "+"Potencia: "+potencia1);
 			System.out.println(n2+" - "+"Raiz quadrada: "+quadrada2);
