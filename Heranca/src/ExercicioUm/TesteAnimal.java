@@ -13,5 +13,9 @@ public class TesteAnimal {
 		
 		System.out.println("Idade humana: "+cao.calcularIdade());
 		cao.imprimir();
+		
+		cao.acao();
+		cavalo.emitirSom();
+		preguica.emitirSom();
 	}
 }

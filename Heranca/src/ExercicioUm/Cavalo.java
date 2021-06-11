@@ -7,6 +7,14 @@ public class Cavalo extends Animal{
 		super(nome, idade);
 		this.pelagem = pelagem;
 	}
+
+	public void emitirSom() {
+		System.out.println("Pocotó....Pocotó....Pocotó");
+	}
+	
+	public void acao() {
+		System.out.println("Cavalo está correndo");
+	}
 	
 	public void imprimir() {
 		System.out.println("Nome: "+getNome());

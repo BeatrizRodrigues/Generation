@@ -8,6 +8,14 @@ public class Preguica extends Animal{
 		this.especie = especie;
 	}
 	
+	public void emitirSom() {
+		System.out.println("Olá humano, tudo bem?");
+	}
+	
+	public void acao() {
+		System.out.println("Preguiça subiu na árvore");
+	}
+	
 	public void imprimir() {
 		System.out.println("Nome: "+getNome());
 		System.out.println("Idade: "+getIdade());

@@ -15,6 +15,16 @@ public class Cachorro extends Animal{
 		return idadeHum;
 	}
 	
+	@Override
+	public void emitirSom() {
+		System.out.println("Au...Au...Au..");
+	}
+	
+	@Override
+	public void acao() {
+		System.out.println("O cachorrinho está correndo");
+	}
+	
 	public void imprimir() {
 		System.out.println("Nome: "+getNome());
 		System.out.println("Idade: "+getIdade());
