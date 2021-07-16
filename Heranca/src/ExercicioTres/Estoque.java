@@ -14,6 +14,7 @@ public class Estoque implements Funcoes{
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Override
 	public void armazenarDados(String n) {
 		list.add(n);
 	}
@@ -26,7 +27,7 @@ public class Estoque implements Funcoes{
 			}
 		}
 	}
-	
+	@Override
 	public void atualizarDados(String n) {
 		System.out.println("Digite o novo produto: ");
 		String novo = ler.next();
@@ -37,10 +38,11 @@ public class Estoque implements Funcoes{
 			System.out.println("Produto não existe!");
 		}
 	}
-	
+	@Override
 	public void ordenar() {
 		Collections.sort(list);
 	}
+	@Override
 	public void imprimir() {
 		System.out.println(list);
 	}

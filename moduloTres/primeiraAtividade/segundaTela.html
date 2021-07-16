@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatrizForm</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+           <legend>Dados pessoais</legend>
+           Nome:<br>
+           <input type="text"><br>
+           Idade:<br>
+           <input type="text"><br>
+        </fieldset><br>
+        <fieldset>
+           <legend>Dados profissionais</legend>
+            <p>Escolaridade: 
+            <select name="escolaridade">
+            <option value="Ensino fundamental">Ensino fundamental</option>
+            <option value="Ensino Médio">Ensino médio</option>
+            <option value="Ensino superior">Ensino superior</option>
+            </select></p>
+           <p>Área de atuação 
+            <input type="radio" id="front"   name="area de atuação" value="front">
+            <label for="front">Front-End</label>
+            <input type="radio" id="back" name="area de atuação" value="back">
+            <label for="back">Back-End</label>
+            <input type="radio" id="fullstack" name="area de atuação" value="fullstack">
+            <label for="fullstack">Full Stack</label>
+           </p> 
+        </fieldset><br>
+        <input type="submit" value="Pronto">
+      </form>
+</body>
+</html>
