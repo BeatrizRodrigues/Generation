@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,41 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Beatriz</title>
 </head>
+
 <body>
     <!--NavBar :)-->
     <div id="nav" class="nav">
         <img class="logo" src="./assets/img/REC.BIA.png" alt="Logo Rec. Bia">
+        <a class="link" href="index.html">Recomendações</a>
         <h4 class="bemvinde">Olá!...Seja bem vinde :)</h4>
     </div>
     <!--Header(cabeçalho) :)-->
     <header class="banner">
-        <div class="apresentacao">
-            <h1>Beatriz Apª de Freitas Rodrigues</h1>
-            <h2 class="descricao">Olá, me chamo Beatriz, tenho 23 anos e amo assistir filmes, séries e desenhos e amo mais ainda jogos de videogames, por isso resolvi montar uma listas com minhas recomendações favoritas.</h2>
+        <div class="container">
+            <div>
+                <h1>Beatriz Apª de Freitas Rodrigues</h1>
+                <h2 class="descricao">Olá, me chamo Beatriz, tenho 23 anos, meu hobbie é assistir filmes, séries e desenhos.Amo jogos de videogames, por isso resolvi montar uma listas com minhas recomendações favoritas.</h2>               
+            </div>
+            <div>
                 <img class="imgBia" src="./assets/img/bia.jpg">
+            </div>
         </div>
-        <div class="fadeBottom"></div>
     </header>
-    
+    <div class="formulario">
+        <h2 class="h2Branco">Entre em contato comigo</h2>
+        <br>
+        <form>
+            <input class="input" type="text" id="nome" placeholder="Nome" onkeyup="validaNome()"/>
+            <div id="txtNome"></div>
+            <input class="input" type="text" id="email" placeholder="E-mail" onkeyup="validaEmail()"/>
+            <div id="txtEmail"></div>
+            <textarea class="input" name="assunto" id="assunto" cols="60" rows="5" placeholder="Assunto" onkeyup="validaAssunto()"></textarea>
+            <div id="txtAssunto"></div>
+            <br>
+            <button class="sobremim" onclick="enviar()">Enviar</button>
+        </form>
+    </div>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
