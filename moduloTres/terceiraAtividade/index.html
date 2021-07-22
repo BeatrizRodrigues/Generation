@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #3a93d3">
+    <nav id="nav" class="navbar fixed-top navbar-dark bg-primary" style="background-color: rgb(58, 58, 211);">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="logo" src="./assets/img/2.png" alt="hora de aventura"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,11 +43,6 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Perquisar" aria-label="Search">
-                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btncheck3">Pesquisar</label>
-                </form>
             </div>
         </div>
     </nav>
@@ -86,6 +81,7 @@
     </header>
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
         tabindex="0">
+        <br><br>
         <h2 id="scrollspyHeading2">Personagens:</h2><br>
         <div class="card-group">
             <div class="card" style="width: 18rem;">
@@ -164,77 +160,88 @@
             </div>
         </div>
         <br><br>
-        <h2 id="scrollspyHeading3">Temporadas</h2>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Temporada</th>
-                    <th scope="col">Episódios</th>
-                    <th scope="col">Lançamento no Brasil</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>26</td>
-                    <td>8 de agosto de 2010</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>26</td>
-                    <td>11 de setembro de 2011</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>26 (1 especial)</td>
-                    <td>26 de março de 2012</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>26</td>
-                    <td>3 de setembro de 2012</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>52 (1 especial)</td>
-                    <td>8 de julho de 2013</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>43</td>
-                    <td>4 de agosto de 2014</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</th>
-                    <td>26 (1 Minissérie + 1 Especial)</td>
-                    <td>4 de janeiro de 2016</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</th>
-                    <td>27 (1 Minissérie)</td>
-                    <td>1 de agosto de 2016</td>
-                </tr>
-                <tr>
-                    <th scope="row">9</th>
-                    <td>14 (1 Minissérie)</td>
-                    <td>6 de novembro de 2017</td>
-                </tr>
-                <tr>
-                    <th scope="row">10</th>
-                    <td>16 (1 Especial)</td>
-                    <td>5 de março de 2018</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="ratio ratio-16x9">
-            <h2 id="scrollspyHeading4">Abertura</h2>
-            <iframe src="https://www.youtube.com/watch?v=zT8lH5gbMYY" title="YouTube video" allowfullscreen></iframe>
-          </div>
-        
-        <h2 id="scrollspyHeading4">Fatos interessantes</h2>
-        <p>...</p>
-        <h2 id="scrollspyHeading5">Episódios especiais</h2>
-        <p>...</p>
+        <div>
+            <h2 id="scrollspyHeading3">Temporadas</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Temporada</th>
+                        <th scope="col">Episódios</th>
+                        <th scope="col">Lançamento no Brasil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>26</td>
+                        <td>8 de agosto de 2010</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>26</td>
+                        <td>11 de setembro de 2011</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>26 (1 especial)</td>
+                        <td>26 de março de 2012</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>26</td>
+                        <td>3 de setembro de 2012</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>52 (1 especial)</td>
+                        <td>8 de julho de 2013</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>43</td>
+                        <td>4 de agosto de 2014</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>26 (1 Minissérie + 1 Especial)</td>
+                        <td>4 de janeiro de 2016</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>27 (1 Minissérie)</td>
+                        <td>1 de agosto de 2016</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>14 (1 Minissérie)</td>
+                        <td>6 de novembro de 2017</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>16 (1 Especial)</td>
+                        <td>5 de março de 2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br><br>
+        <h2 id="scrollspyHeading4">Abertura:</h2>
+        <div class="ratio ratio-21x9">
+            <iframe src="./assets/img/hora-de-aventura.mp4" title="YouTube video" allowfullscreen></iframe>
+        </div>
+        <br><br>
+        <h2 id="scrollspyHeading5">Episódios especiais:</h2>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/adventure.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: rgb(0, 0, 150);">ADVENTURE TIME: DISTANT LANDS</h5>
+                    <p style="color: black;">Finn e Jake, os melhores amigos que atravessaram a mística Terra de Ooo, estão de volta em novas histórias repletas de aventuras, junto com alguns habitantes desse lugar bastante peculiar. Enquanto a dupla redescobre sua amizade, BMO embarca em uma emergência espacial mortal, Marceline e Princesa Jujuba viajam até o Reino de Vidro e Mordomo Menta funda uma escola de magia para tentar salvar a própria reputação.</p>
+                  </div>
+              </div>
+            </div>
+        </div>
     </div>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
